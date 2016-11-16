@@ -61,10 +61,7 @@ public class Holding implements Comparable<Holding>{
 	
 	static String printHoldings(String portfolioString) {
 
-		// not really required, but added to reuse old code
-		int holdingCount = countHoldings(portfolioString);
-
-		List<Holding> holdingList = new ArrayList();
+		List<Holding> holdingList = new ArrayList<Holding>();
 		
 		StringBuilder sb = new StringBuilder(); 
 		//declare arrayList with object
